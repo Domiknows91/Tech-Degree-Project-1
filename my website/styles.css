@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/los-angeles.webp') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -104,7 +104,7 @@ header .profile-image:hover {
 
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
@@ -178,7 +178,11 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
+ .card-width {
+   max-width: 350px ;
+   text-align: left ;
 
+}
   header {
     min-height: 470px;
   }
@@ -202,6 +206,7 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
 
 }
 
